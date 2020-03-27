@@ -1,15 +1,15 @@
 #Question 1
 def sup21(nombre):
   if nombre >= 21:
-    result= True 
+    result = True 
   else:
-    result=False
+    result = False
   return result
 
 
 #Question 2
 def pair(liste):
-  paire=[]
+  paire = []
   for i in range(len(liste)):
     if liste[i] % 2 == 0:
       paire.append(liste[i])
@@ -17,20 +17,20 @@ def pair(liste):
 
 #Question 3
 def ajout4(liste1):
-  l=[4]
+  l = [4]
   ajout4 = liste1 + l
   return ajout4
 
 #Question 4
 def to_strings(dictionnaire):
-  l1=[]
+  l1 = []
   for clé, val in dictionnaire.items():
     l1.append(str(clé) + ":" + str(val))
   return l1
 
 #Question  5
 def extremites(liste2):
-  l2= liste2[:2]  + liste2[-2:]
+  l2 = liste2[:2]  + liste2[-2:]
   return l2
 
 #Question 6
@@ -43,7 +43,7 @@ class Mot():
  
 #Question 7       
 def tri_et_inverse(liste3):
-    l3=[]
+    l3 = []
     for x in reversed(liste3):
         l3.append(x)
     return (sorted(liste3), l3)
